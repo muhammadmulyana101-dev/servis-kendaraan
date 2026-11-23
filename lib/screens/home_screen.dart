@@ -90,8 +90,8 @@ class _HomeScreenState extends State<HomeScreen> {
                       itemBuilder: (_, i) {
                         final s = data[i];
                         return ListTile(
-                          leading: const CircleAvatar(
-                              child: Icon(Icons.build)),
+                          leading:
+                              const CircleAvatar(child: Icon(Icons.build)),
                           title: Text(s.judul),
                           subtitle: Text('${s.tanggal} • Rp ${s.biaya}'),
                           trailing: const Icon(Icons.chevron_right),
@@ -128,3 +128,4 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
   }
+}
